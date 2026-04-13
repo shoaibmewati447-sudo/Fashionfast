@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashionfast</title>
+    <script src="config.js"></script>
+</head>
+<body>
+    <h1>Welcome to Fashionfast</h1>
+    <p id="description"></p>
+    <script>
+        // Assuming config.js exports an object named config
+        document.getElementById('description').innerText = config.description;
+    </script>
+</body>
+</html>
